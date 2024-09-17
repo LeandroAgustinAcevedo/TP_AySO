@@ -1,0 +1,153 @@
+ls
+-l
+ls -l
+ls -la
+man ls
+man man
+pwd
+whoami
+echo "Hola Mundo"
+echo $HOME
+cd repogit/
+;s
+ls
+git clone https://github.com/LeandroAgustinAcevedo/repo_Acevedo.git
+ls
+cd repo_Acevedo/
+ls
+history
+history > historial.txt
+git status
+git add historial.txt
+git commit -m "Mi primer commit"
+git config --global user.email "leandroagust@outlook.com.ar"
+gir config --global user.name "LeandroAgustinAcevedo"
+git commit -m "Mi primer commit"
+git config --global user.email "leandroagust@outlook.com.ar"
+git config --global user.name "LeandroAgustinAcevedo"
+git commit -m "Mi primer commit"
+git push
+exit
+ls -l
+cd repogit
+ls -l
+cd repo_Acevedo
+ls -l
+git status
+git add .
+
+"
+git push
+git status
+exit
+man
+man vagrant
+man man
+man vagrant
+man exit
+man ssh
+vagrant halt
+halt
+ssh halt
+ssh ~.
+ssh .
+exit
+cd repogit
+git clone https://github.com/LeandroAgustinAcevedo/TP_AySO.git
+cd TP_AySO
+PWD
+pwd
+ls -l
+cat /etc/os-release
+ssh-keygen
+ls -la
+whoami
+echo "Usuario=$(whoami)" > datos_usuarios.txt
+git status
+git add .
+git status'
+git status
+cd repogit
+cd TP_AySO
+git status
+git config --global user.email "leandroagust@outlook.com.ar"
+git config --global user.name "LeandroAgustinAcevedo"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+ls -la
+cd .
+ls -la
+cat .
+cat ..
+cat .git
+cat README.md
+vagrant halt
+cd repogit
+ls -la
+git status
+git clone git@github.com:LeandroAgustinAcevedo/TP_AySO.git
+cd TP_AySO
+ls -la
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+man grep
+grep -i Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+git add.
+git add .
+git status
+git config --global user.email leandroagust@outlook.com.ar git config --global user.name LeandroAgustinAcevedo
+git config --global user.email leandroagust@outlook.com.ar
+git config --global user.name LeandroAgustinAcevedo
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt
+git status
+cd repogit
+cd TP_AySO
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt
+cd repogit
+cd TP_AySO
+vagrant ssh-keygen
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd repogit
+cat $HOME/.ssh/*.pub
+cd TP_AySO
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+head /proc/cpuinfo
+tail /proc/cpuinfo
+head /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep -i "Model Name"
+echo "Model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git status
+git commit -m "feat: Añadiendo información de CPU"
+head 
+head /etc/password | grep -v nologin
+grep -v nologin /etc/passwd | sort -t":" -k7 | head -n 10
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7 | head -n 10)" > lista_ordenada.txt
+git add .
+git commit -m "ADD: Lista de usuarios ordenada"
+apropos "dump traffic"
+sudo mandb
+apropos "dump traffic"
+echo "$(apropos "dump traffic")" > comando_dump_net
+cat comando_dump_net
+git add .
+git status
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat << FIN >> README.md
+Alumno: Leandro Agustin Acevedo
+División: 115
+Turno: Mañana
+FIN
+
+CAT README.md
+cat README.md
+git add .
+git commit -m "ADD: agregue al archivo al README alumno, división y turno."
+history -a $HOME/.bash_history
