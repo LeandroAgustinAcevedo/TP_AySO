@@ -1,0 +1,247 @@
+cd repogit/
+cd Repo_Acevedo/
+git config --global user.email "leandroagust@outlook.com.ar"
+git config --global user.name "LeandroAgustinAcevedo"
+git status
+git commit -m "Mi primer commit" 
+git push
+exit
+ls -la
+man ls
+man man
+pwd
+whoami
+echo "Hola"
+echo $HOME
+ECHO PWD
+echo pwd
+ls
+cat README
+cd repogit/
+git clone https://github.com/LeandroAgustinAcevedo/Repo_Acevedo.git
+ls
+cd Repo_Acevedo/
+ls
+history
+history > historial.txt
+git status
+git add . 
+git status
+git commit -m "Mi primer commit"
+pwd
+echo $HOME
+ls
+cd repogit/
+ls
+cd Repo_Acevedo/
+ls
+cd ..
+la -l
+ls -la
+ssh-keygen -t ed25519
+cd .ssh/
+ls
+cat id_ed25519
+cat id_ed25519.pub
+cat id_ed25519
+cd ..
+cd .ssh/
+ls -l
+cat id_ed25519.pub
+cd ..
+clear
+ls -l
+cd repogit/
+ls -l
+cd Repo_Acevedo/
+ls -l
+git status
+git clone git@github.com:LeandroAgustinAcevedo/Repo_Acevedo.git
+ls -l
+echo "Hola
+"
+echo "Hola"
+echo "Hola" > hola.txt
+ls -l
+git status
+git add .
+git commit -m "Segundo intento de commit"
+git push
+git status
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep vagrant
+sudo cat /etc/shadow | grep vagrant | ":{print $2
+"
+sudo cat /etc/shadow | grep vagrant | ":" {print $2} 
+sudo cat /etc/shadow | grep vagrant | ":" ${print $1} 
+pwd
+echo $HOME
+ls
+cd repogit/
+ls
+cd Repo_Acevedo/
+ls
+cd ..
+la -l
+ls -la
+ssh-keygen -t ed25519
+cd .ssh/
+ls
+cat id_ed25519
+cat id_ed25519.pub
+cat id_ed25519
+cd ..
+cd .ssh/
+ls -l
+cat id_ed25519.pub
+cd ..
+clear
+ls -l
+cd repogit/
+ls -l
+cd Repo_Acevedo/
+ls -l
+git status
+git clone git@github.com:LeandroAgustinAcevedo/Repo_Acevedo.git
+ls -l
+echo "Hola
+"
+echo "Hola"
+echo "Hola" > hola.txt
+ls -l
+git status
+git add .
+git commit -m "Segundo intento de commit"
+git push
+git status
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep vagrant
+sudo cat /etc/shadow | grep vagrant | ":{print $2
+"
+sudo cat /etc/shadow | grep vagrant | ":" {print $2} 
+sudo cat /etc/shadow | grep vagrant | ":" {print $1} 
+sudo cat /etc/shadow | grep vagrant | ":" ${print 1} 
+pwd
+echo $HOME
+ls
+cd repogit/
+ls
+cd Repo_Acevedo/
+ls
+cd ..
+la -l
+ls -la
+ssh-keygen -t ed25519
+cd .ssh/
+ls
+cat id_ed25519
+cat id_ed25519.pub
+cat id_ed25519
+cd ..
+cd .ssh/
+ls -l
+cat id_ed25519.pub
+cd ..
+clear
+ls -l
+cd repogit/
+ls -l
+cd Repo_Acevedo/
+ls -l
+git status
+git clone git@github.com:LeandroAgustinAcevedo/Repo_Acevedo.git
+ls -l
+echo "Hola
+"
+echo "Hola"
+echo "Hola" > hola.txt
+ls -l
+git status
+git add .
+git commit -m "Segundo intento de commit"
+git push
+git status
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep vagrant
+sudo cat /etc/shadow | grep vagrant | ":{print $2
+"
+sudo cat /etc/shadow | grep vagrant | ":" {print $2} 
+sudo cat /etc/shadow | grep vagrant | ":" {print $1} 
+sudo cat /etc/shadow | grep vagrant | ":" ${print 1} 
+sudo cat /etc/shadow | grep vagrant | awk -F ":" {print $2} 
+sudo cat /etc/shadow | grep vagrant | awk -F ":" '{print $2}' 
+PRNT 2
+lspci
+lscpu
+lscpu | grep mhz
+lscpu | grep model
+lscpu | grep -i model
+lscpu | grep -i model name
+lscpu | grep -i 'model name'
+lscpu | grep -i 'model name' > info_proc.txt
+
+exit
+ls
+cd repogit/
+ls
+git clone git@github.com:LeandroAgustinAcevedo/TP_AySO.git
+ls
+cd TP_AySO/
+ls
+cat /etc/os-release
+grep -i hOmE_uRl /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuarios.txt
+ls
+git add .
+git config --global user.email "leandroagust@outlook.com.ar"
+git config --global user.name "LeandroAgustinAcevedo"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+cat /proc
+cat /proc
+ls proc/
+ls /proc/
+cat /proc/cpuinfo | grep -i "model"
+cat /proc/cpuinfo | grep -i "model", "name"
+cat /proc/cpuinfo | grep 
+cat /proc/cpuinfo | grep -i "model" | head -n2
+cat /proc/cpuinfo | grep -i "model" | head -n2 | tail -n1
+cat /proc/cpuinfo | grep -i "model" | head -n2 | tail -n1 >> datos_usuario.txt
+ls
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat /proc/cpuinfo | grep -i "model" | head -n2 | tail -n1 >> datos_usuario.txt
+rm datos_usuarios.txt
+ls
+git status
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+head /etc/passwd | grep -v "nologin" | sort -t":" -k7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head
+grep -v "nologin" /etc/passwd | head | sort -t":" -k7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+apropos "dump_traffic"
+apropos "dump traffic"
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffic" >> comando_dump_net
+cat comando_dump_net 
+git status
+git add .
+git commit -m “ADD: Comando para Capturar y analizar el tráfico de red ”
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red "
+cat << FIN >> README.md
+Alumno: Leandro Agustin Acevedo
+División: 115
+Turno: Mañana
+FIN
+
+git status
+git add .
+git commit -m "docs: Agregando informacion personal en el README"
+hystory -a $HOME/.bash_history
+history -a $HOME/.bash_history
